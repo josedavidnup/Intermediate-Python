@@ -30,6 +30,7 @@ class Vehiculos:
         )
 
 
+""" 
 class Furgoneta(Vehiculos):
     def carga(self, cargar):
         self.cargado = cargar
@@ -58,7 +59,7 @@ class Moto(Vehiculos):
             "\nFrenando:",
             self.frena,
             self.hcaballito,
-        )
+        ) """
 
 
 class VElectricos(Vehiculos):
@@ -71,13 +72,9 @@ class VElectricos(Vehiculos):
 
 
 # miMoto = Moto("Honda", "CBR")
-
 # miMoto.caballito()
-
 # miMoto.estado()
-
 # miFurgoneta = Furgoneta("Renault", "Kangoo")
-
 # miFurgoneta.arrancar()
 # miFurgoneta.estado()
 # print(miFurgoneta.carga(True))
